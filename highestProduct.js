@@ -22,6 +22,14 @@ function highestProductOfList2(list) {
                     number3 = prevNum2
                 }
             }
+        } else if (list[i] > number2) {
+            let prevNum2 = number2
+                number2 = list[i]
+                if (prevNum2 > number3) {
+                    number3 = prevNum2
+                }
+        } else if (list[i] > number3) {
+            number3 = list[i]
         }
     }
     let result = number1 * number2 * number3;
