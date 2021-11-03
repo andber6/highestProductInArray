@@ -6,7 +6,7 @@ var listOfNumbers = [2, 4, 5, 6, 7, 11, 4, 222, 9, 19]
 //     console.log('ascending: ', ascending);
 //     let answer = ascending[-1] * ascending[-2] * ascending[-3]
 //     return answer;
-// };´
+// };
 
 // Function for finding the highest product of 3 integers from a list
 function highestProductOfList2(list) {
